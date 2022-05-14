@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>getElementByClassName</title>
+</head>
+<body>
+    <h2>Usando em JS o Element getElementByClassName</h2>
+
+    <p>Altere o texto do primeiro parágrafo com class="exemple" :</p>
+
+    <div class="exemple">Element1</div>
+    <div class="exemple">Element2</div>
+
+    <script>
+        const collection = document.getElementsByClassName('exemple');
+        collection[0].innerHTML = "Olá mundo";
+        console.log(collection);
+        console.log(collection[0].innerHTML);
+        console.log(collection[1].innerHTML);
+    </script>
+</body>
+</html>

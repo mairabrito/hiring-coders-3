@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+}
+
+.container{
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    width: 100%;
+    background-image: url(/projeto-portfolio-exemplo/img/star.jpg);
+}
+
+#about, #arrow{
+    max-width:900px;
+    margin: 0 auto;
+}
+
+#about > p{
+    font-size: 20px;
+    margin: 15px;
+    background-color: rgba(168, 17, 146, 0.075);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+li{
+    margin: 30px;
+    text-align: end;
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+
+main{
+    color: white;
+}
+
+.form1{
+    height: 30px;
+    width: 200px;
+    border: 2px solid rgb(157, 4, 121);
+    margin-right: 2px;
+    border-radius: 5px;
+}
+
+.but{
+    border: 1px solid rgb(97, 1, 87);
+    height: 30px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(157, 4, 121);
+    border-radius: 5px;
+}
+
+.but:hover{
+    box-shadow:-2px 5px 10px rgb(197, 196, 197);
+}
+
+.form1:hover{
+    box-shadow:-5px 5px 10px rgb(157, 4, 121);
+    border: 2px solid rgb(157, 4, 121);
+    height: 30px;
+
+}
+
+
+h1{
+    font-size:  100px;
+    font-family: 'Russo One', sans-serif;
+}
+h1:hover{
+    box-shadow:-5px 10px 10px rgb(157, 4, 121);
+    color: aliceblue;
+}
+
+h5{
+    font-family: 'Khand', sans-serif;
+    font-size: 20px;
+}
