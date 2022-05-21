@@ -10,7 +10,7 @@ function validaCPF(cpf){
 
         var soma = 0;
         for( var i = 10; i > 1; i--){
-            soma += numeros.charAt(10-i)*i; //charAt retorna a possicao do elemento
+            soma += numeros.charAt(10-i)*i; //charAt retorna a posicao do elemento
         }
 
         var resultado = soma % 11 < 2 ? 0 : 11 - (soma % 11);
@@ -22,7 +22,7 @@ function validaCPF(cpf){
         soma = 0;
         numeros = cpf.substring(0, 10);
         for( var k = 11; k > 1; k--){
-            soma += numeros.charAt(11-k)*k; //charAt retorna a possicao do elemento
+            soma += numeros.charAt(11-k)*k; //charAt retorna a posicao do elemento
         }
 
         resultado = soma % 11 < 2 ? 0 : 11 - (soma % 11);
