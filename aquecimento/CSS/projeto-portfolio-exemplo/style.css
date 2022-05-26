@@ -1,37 +1,54 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-header{
+header {
     display: flex;
 }
 
-.container{
+.container {
     text-align: center;
 }
 
-ul{
+ul {
     list-style: none;
     display: flex;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-body{
-    width: 100%;
-    background-image: url(/projeto-portfolio-exemplo/img/star.jpg);
+body {
+    height: 100vh;
+    background: url(/projeto-portfolio-exemplo/img/star.jpg) no-repeat center center fixed;
+    background-size: cover; /*O tamanho da tela toda*/
+    
+    /*background: #20002c;  /* fallback for old browsers 
+    background: -webkit-linear-gradient(to right, #cbb4d4, #20002c);
+    /* Chrome 10-25, Safari 5.1-6 
+    background: linear-gradient(to right, #cbb4d4, #20002c);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ 
+
+
+    background: #000000;
+    /* fallback for old browsers 
+    background: -webkit-linear-gradient(to right, #434343, #000000);
+    /* Chrome 10-25, Safari 5.1-6 
+    background: linear-gradient(to right, #434343, #000000);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
-#about, #arrow{
-    max-width:900px;
+#about,
+#arrow {
+    max-width: 900px;
     margin: 0 auto;
 }
 
-#about > p{
+#about>p {
     font-size: 20px;
     margin: 15px;
     background-color: rgba(168, 17, 146, 0.075);
@@ -39,20 +56,21 @@ body{
     padding: 5px;
 }
 
-li{
+li {
     margin: 30px;
     text-align: end;
 }
-img{
+
+img {
     width: 200px;
     height: 200px;
 }
 
-main{
+main {
     color: white;
 }
 
-.form1{
+.form1 {
     height: 30px;
     width: 200px;
     border: 2px solid rgb(157, 4, 121);
@@ -60,7 +78,14 @@ main{
     border-radius: 5px;
 }
 
-.but{
+.form1:hover {
+    box-shadow: -1px 10px 10px rgb(157, 4, 121);
+    border: 2px solid rgb(157, 4, 121);
+    height: 30px;
+
+}
+
+.but {
     border: 1px solid rgb(97, 1, 87);
     height: 30px;
     font-weight: bold;
@@ -69,28 +94,24 @@ main{
     border-radius: 5px;
 }
 
-.but:hover{
-    box-shadow:-2px 5px 10px rgb(197, 196, 197);
-}
-
-.form1:hover{
-    box-shadow:-5px 5px 10px rgb(157, 4, 121);
-    border: 2px solid rgb(157, 4, 121);
-    height: 30px;
-
+.but:hover {
+    box-shadow: -2px 10px 10px rgb(197, 196, 197);
 }
 
 
-h1{
-    font-size:  100px;
+
+
+h1 {
+    font-size: 100px;
     font-family: 'Russo One', sans-serif;
 }
-h1:hover{
-    box-shadow:-5px 10px 10px rgb(157, 4, 121);
+
+h1:hover {
+    box-shadow: -5px 10px 10px rgb(157, 4, 121);
     color: aliceblue;
 }
 
-h5{
+h5 {
     font-family: 'Khand', sans-serif;
     font-size: 20px;
 }
